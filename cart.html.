@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>سلة المشتريات - IEEE Horus</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="assets/logo-placeholder.png" alt="Logo">
+      <h1>IEEE Horus Electronic Store</h1>
+    </div>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="shop.html">المتجر</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html">تواصل</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>سلة مشترياتك</h2>
+  <section id="cart-items">
+    <!-- cart items here -->
+  </section>
+  <div class="cart-summary">
+    <p>الإجمالي: <span id="cart-total">0.00</span> EGP</p>
+    <a class="btn" id="checkout-btn" href="checkout.html">إتمام الطلب</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© IEEE Horus Electronic Store</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
