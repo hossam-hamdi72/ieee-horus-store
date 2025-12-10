@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>إتمام الطلب - IEEE Horus</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="assets/logo-placeholder.png" alt="Logo">
+      <h1>IEEE Horus Electronic Store</h1>
+    </div>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="shop.html">المتجر</a>
+      <a href="about.html">من نحن</a>
+      <a href="contact.html">تواصل</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>أدخل بياناتك لإتمام الطلب</h2>
+  <form id="checkout-form">
+    <label>الاسم الكامل<input name="name" required></label>
+    <label>الهاتف<input name="phone" required></label>
+    <label>العنوان<textarea name="address" required></textarea></label>
+    <label>ملاحظات إضافية<textarea name="notes"></textarea></label>
+
+    <h3>طريقة الدفع</h3>
+    <select name="payment_method" id="payment_method">
+      <option value="cod">الدفع عند الاستلام (Cash on Delivery)</option>
+      <option value="card">بطاقة ائتمان (Placeholder)</option>
+      <option value="paypal">PayPal (Placeholder)</option>
+    </select>
+
+    <button class="btn" type="submit">إرسال الطلب</button>
+  </form>
+
+  <div id="checkout-message" class="notice" style="display:none;"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© IEEE Horus Electronic Store</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

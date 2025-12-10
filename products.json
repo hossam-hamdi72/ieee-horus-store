@@ -1,0 +1,34 @@
+[
+  {
+    "id": "p1",
+    "name": "Arduino Uno R3",
+    "category": "Arduino & Microcontrollers",
+    "price": "450",
+    "image": "assets/arduino-uno.png",
+    "description": "لوح تحكم مناسب للمشروعات التعليمية و الهوايات."
+  },
+  {
+    "id": "p2",
+    "name": "HC-SR04 Ultrasonic Sensor",
+    "category": "Sensors & Modules",
+    "price": "80",
+    "image": "assets/ultrasonic.png",
+    "description": "حساس قياس المسافة بالموجات فوق الصوتية."
+  },
+  {
+    "id": "p3",
+    "name": "10k Resistor Pack (50pcs)",
+    "category": "Passive Components",
+    "price": "40",
+    "image": "assets/resistors.png",
+    "description": "مجموعة مقاومات قيم مختلفة للاختبارات."
+  },
+  {
+    "id": "p4",
+    "name": "Breadboard + Jumper Wires",
+    "category": "Cables & Connectors",
+    "price": "120",
+    "image": "assets/breadboard.png",
+    "description": "لوح تجارب مع أسلاك توصيل."
+  }
+]
